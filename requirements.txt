@@ -85,3 +85,4 @@ yarl
 wikipedia
 chainlit
 matplotlib
+flask
