@@ -398,4 +398,4 @@ if __name__ == '__main__':
     print("Agents initialized successfully!")
     print("\nStarting web server...")
     print("Access the web interface at: http://localhost:5000")
-    app.run(debug=True) 
+    app.run(host='0.0.0.0', port=5050, debug=True, use_reloader=False)
